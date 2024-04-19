@@ -61,11 +61,6 @@ Spring Security와 소셜로그인 api, 주소검색 api를 활용한 한영 주
       <td align="center">
 	      ![loginFail](https://github.com/Si-Woo91/adressSearch/assets/101760091/6ca236e4-5993-46e0-972c-924ad681233e)
       </td>
-      <td align="center">
-        <a href="imges/email.png" target="_blank">
-        <img width="329" src="imges/email.png" 
-        style="max-width: 100%;"></a>
-      </td>
     </tr>
   </tbody>
 </table>
@@ -95,11 +90,6 @@ Spring Security와 소셜로그인 api, 주소검색 api를 활용한 한영 주
       </td>
       <td align="center">
 	      ![singupFail](https://github.com/Si-Woo91/adressSearch/assets/101760091/8eb844c5-a27a-410e-89e3-c2b8ebcb27c9)
-      </td>
-      <td align="center">
-        <a href="imges/email.png" target="_blank">
-        <img width="329" src="imges/email.png" 
-        style="max-width: 100%;"></a>
       </td>
     </tr>
   </tbody>
