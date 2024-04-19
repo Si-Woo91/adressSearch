@@ -46,13 +46,100 @@ Spring Security와 소셜로그인 api, 주소검색 api를 활용한 한영 주
 
 # 🖥️ 화면구성 및 기능
 
-![loginPage](https://github.com/Si-Woo91/adressSearch/assets/101760091/7d342c17-ef96-4b75-a7b8-af8663ba4d7d)
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center;">로그인 페이지</th>
+      <th style="text-align: center;">로그인 실패</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+	      ![loginPage](https://github.com/Si-Woo91/adressSearch/assets/101760091/7d342c17-ef96-4b75-a7b8-af8663ba4d7d)
+      </td>
+      <td align="center">
+	      ![loginFail](https://github.com/Si-Woo91/adressSearch/assets/101760091/6ca236e4-5993-46e0-972c-924ad681233e)
+      </td>
+      <td align="center">
+        <a href="imges/email.png" target="_blank">
+        <img width="329" src="imges/email.png" 
+        style="max-width: 100%;"></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
+- 로그인
 
+  - **인증 프로세스 구현**: Spring Security를 사용하여 사용자가 제공한 인증 정보(일반적으로 아이디와 비밀번호)를 검증, 이를 통해 사용자가 시스템에 접근 가능한지 확인
+  - **비밀번호 해싱 및 매칭**: 사용자가 제공한 비밀번호를 Spring Security의 암호화 기능을 활용하여 저장된 해시된 비밀번호와 비교
+  - **인가 및 권한 부여**: Spring Security를 사용하여 ROLE_USER 권한이 부여된 경우 해상 서비스를 이용 가능
+  - **로그인 실패시 사유 alert으로 안내** : 실패시 CustomFailureHandler에 등록된 오류 내용으로 메시지 출력
+  - **소셜로그인** : Kakao Api를 통해 카카오톡으로 로그인 회원가입 및 로그인이 가능
+ 
+  
+  </br></br>
 
+  <table>
+  <thead>
+    <tr>
+      <th style="text-align: center;">회원가입 페이지</th>
+      <th style="text-align: center;">회원가입 실패</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+	      ![singupPage](https://github.com/Si-Woo91/adressSearch/assets/101760091/d99a0562-6915-41ba-96b3-c7a3f4b44fa7)
+      </td>
+      <td align="center">
+	      ![singupFail](https://github.com/Si-Woo91/adressSearch/assets/101760091/8eb844c5-a27a-410e-89e3-c2b8ebcb27c9)
+      </td>
+      <td align="center">
+        <a href="imges/email.png" target="_blank">
+        <img width="329" src="imges/email.png" 
+        style="max-width: 100%;"></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+- 회원가입
+
+ - **비밀번호 암호화 및 안전한 저장**: Spring Security의 암호화 기능을 이용하여 사용자의 비밀번호를 안전하게 해시화하고 데이터베이스에 저장.
+ - **중복 확인**: 이미 등록된 사용자인지 확인하기 위해 이메일 주소를 기준으로 중복 여부를 확인
 
 
 <br><br>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center;">주소검색 페이지</th>
+      <th style="text-align: center;">주소찾기 버튼 클릭시</th>
+      <th style="text-align: center;">선택한 주소에 대한 내용 출력</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+	      ![adressPage](https://github.com/Si-Woo91/adressSearch/assets/101760091/c23e5ae0-a3c9-4ac3-941e-fbbc61ba4e2c)
+      </td>
+      <td align="center">
+	      ![btnClick](https://github.com/Si-Woo91/adressSearch/assets/101760091/a8dfe404-6b5e-4319-bb1e-95923949515a)
+      </td>
+      <td align="center">
+	      ![adressSearch](https://github.com/Si-Woo91/adressSearch/assets/101760091/2f8ce20e-5142-442a-b2f0-b3f461314497)
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+- 주소찾기 서비스
+
+  - **주소검색**: DAUM 주소 API를 이용한 주소 검색 및 한영 주소 출력
+
 
 # ✅ 트러블 슈팅
 
