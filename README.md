@@ -56,7 +56,7 @@ Spring Security와 소셜로그인 api, 주소검색 api를 활용한 한영 주
   <tbody>
     <tr>
       <td align="center">
-	      ![loginPage](https://github.com/Si-Woo91/adressSearch/assets/101760091/cf2c36dd-773f-407c-bdc5-26673772606a.jpg)
+	      <img src="https://github.com/Si-Woo91/adressSearch/assets/101760091/cf2c36dd-773f-407c-bdc5-26673772606a)">
       </td>
       <td align="center">
 	     ![loginFail](https://github.com/Si-Woo91/adressSearch/assets/101760091/6d7d9a1d-41d8-4470-b10d-e1c3c2293f79.jpg)
