@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>주소 찾기</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="logout p-3">
+		<a class="logout" sec:authorize="isAuthenticated()" th:href="@{/logout}">로그아웃</a>
+	</div>
+	
+	<div class="search p-3">
+		<input type="button" class="btn btn-warning w-100" onclick="daumPostcode()" value="주소 찾기">
+	</div>
+
+	<div class="result p-3">
+		<table class ="adressTable table text-center table-bordered">
+			<colgroup>
+            	<col width=40%>
+            	<col width=40%>
+            	<col width=20%>
+        	</colgroup>
+			<thead>
+				<tr class="table-success">
+					<th>주소</th>
+					<th>영문주소</th>
+					<th>우편번호</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="table-dark">
+					<td>
+						<input type="text" class="col-10 border mx-auto" id="adress" readonly>
+					</td>
+					<td>
+						<input type="text" class="col-10 border mx-auto" id="engAdress" readonly>
+					</td>
+					<td>
+						<input type="text" class="col-10 border mx-auto" id="postcode" readonly>
+					</td>		
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+<script>
+    function daumPostcode() {
+        new daum.Postcode({
+            oncomplete: function(data) {
+
+                var addr = ''; // 주소 변수
+                var engAddr = ''; // 영문 주소 변수
+                
+                //사용자가 선택한 주소 타입에 따라 해당 주소 값을 가져온다.
+                if (data.userSelectedType === 'R') { // 사용자가 도로명 주소를 선택했을 경우
+                    addr = data.roadAddress;
+                    engAddr = data.roadAddressEnglish;
+                } else { // 사용자가 지번 주소를 선택했을 경우(J)
+                    addr = data.jibunAddress;
+                    engAddr = data.jibunAddressEnglish;
+                }
+
+                // 우편번호와 주소 정보를 해당 필드에 넣는다.
+				document.getElementById('postcode').value = data.zonecode;
+                document.getElementById('adress').value = addr;
+                document.getElementById('engAdress').value = engAddr;
+            }
+        }).open();
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>에러</title>
+</head>
+<!--메세지띄우기1-->
+	<th:block th:if="${#strings.length(msg) != 0}">
+		<script>
+			top.alert("[[${msg}]]");
+		</script>
+	</th:block>
+	<th:block th:if="${#strings.length(url) != 0}">
+		<script>
+			top.location.href = '[[${url}]]';
+		</script>
+	</th:block>
+</script>
+<body>
+
+</body>
+</html>
