@@ -16,4 +16,5 @@ Spring Security와 소셜로그인 api, 주소검색 api를 활용한 한영 주
 # 🚨 기술스택
 
 ### Environment
-![GitHub labels](https://img.shields.io/github/labels/:user/:repo/:name)
+<img src="https://img.shields.io/badge/STS-6DB33F?style=for-the-badge&logo=STS&logoColor=white">&nbsp;
+<img src="https://img.shields.io/badge/github-FC6D26?style=for-the-badge&logo=github&logoColor=white">&nbsp;
