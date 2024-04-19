@@ -41,7 +41,7 @@ Spring Security와 소셜로그인 api, 주소검색 api를 활용한 한영 주
 <img src="https://img.shields.io/badge/Oracle-4479A1?style=for-the-badge&logo=Oracle&logoColor=white">
 
 
-
+<br><br>
 [목차🔺](#-목차)
 
 
@@ -134,7 +134,7 @@ Spring Security와 소셜로그인 api, 주소검색 api를 활용한 한영 주
   - **주소검색**: DAUM 주소 API를 이용한 주소 검색 및 한영 주소 출력
 
 
-
+<br><br>
 [목차🔺](#-목차)
 
 # ✅ 트러블 슈팅
@@ -245,5 +245,5 @@ public class CustomUserDetailsService implements UserDetailsService {
 
 </details>
 
-
+<br><br>
 [목차🔺](#-목차)
