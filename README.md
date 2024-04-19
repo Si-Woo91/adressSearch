@@ -11,7 +11,7 @@
 
 Spring Security와 소셜로그인 api, 주소검색 api를 활용한 한영 주소 검색 서비스입니다.
 
-[목차🔺](#-목차)
+
 
 # 🚨 기술스택
 
@@ -52,7 +52,7 @@ Spring Security와 소셜로그인 api, 주소검색 api를 활용한 한영 주
 <summary>SecurityConfig 설정</summary>
 <br>
 
-...deprecated and marked for removal 오류 발생
+### 현상 : ...deprecated and marked for removal 오류 발생
 
 ```java
     // 기존 코드
@@ -149,7 +149,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 
 }
 ```
--  해결방안 : SecurityConfig의 formLogin 부분에서 .usernameParameter("email")	을 추가 해주었더니 정상적으로 동작.
+-  해결방안 : SecurityConfig의 formLogin 부분에서 .usernameParameter("email")를 추가 해주었더니 정상적으로 동작.
 
 </details>
 
