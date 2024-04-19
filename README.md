@@ -56,10 +56,10 @@ Spring Security와 소셜로그인 api, 주소검색 api를 활용한 한영 주
   <tbody>
     <tr>
       <td align="center">
-	      ![loginPage](https://github.com/Si-Woo91/adressSearch/assets/101760091/cf2c36dd-773f-407c-bdc5-26673772606a)
+	      ![loginPage](https://github.com/Si-Woo91/adressSearch/assets/101760091/cf2c36dd-773f-407c-bdc5-26673772606a.jpg)
       </td>
       <td align="center">
-	     ![loginFail](https://github.com/Si-Woo91/adressSearch/assets/101760091/6d7d9a1d-41d8-4470-b10d-e1c3c2293f79)
+	     ![loginFail](https://github.com/Si-Woo91/adressSearch/assets/101760091/6d7d9a1d-41d8-4470-b10d-e1c3c2293f79.jpg)
       </td>
     </tr>
   </tbody>
@@ -86,10 +86,10 @@ Spring Security와 소셜로그인 api, 주소검색 api를 활용한 한영 주
   <tbody>
     <tr>
       <td align="center">
-	     ![singupPage](https://github.com/Si-Woo91/adressSearch/assets/101760091/a5f096ad-e64d-46e6-af09-62b3c83c5a20)
+	     ![singupPage](https://github.com/Si-Woo91/adressSearch/assets/101760091/a5f096ad-e64d-46e6-af09-62b3c83c5a20.jpg)
       </td>
       <td align="center">
-	     ![singupFail](https://github.com/Si-Woo91/adressSearch/assets/101760091/09d6ce5d-440e-4047-99ee-f26eb92625a0)
+	     ![singupFail](https://github.com/Si-Woo91/adressSearch/assets/101760091/09d6ce5d-440e-4047-99ee-f26eb92625a0.jpg)
       </td>
     </tr>
   </tbody>
@@ -114,13 +114,13 @@ Spring Security와 소셜로그인 api, 주소검색 api를 활용한 한영 주
   <tbody>
     <tr>
       <td align="center">
-	      ![adressPage](https://github.com/Si-Woo91/adressSearch/assets/101760091/8248734d-1549-41bb-a314-c0822a70a995)
+	      ![adressPage](https://github.com/Si-Woo91/adressSearch/assets/101760091/8248734d-1549-41bb-a314-c0822a70a995.jpg)
       </td>
       <td align="center">
-	     ![btnClick](https://github.com/Si-Woo91/adressSearch/assets/101760091/5a893a87-c4c7-4271-91c2-12c1b097a53e)
+	     ![btnClick](https://github.com/Si-Woo91/adressSearch/assets/101760091/5a893a87-c4c7-4271-91c2-12c1b097a53e.jpg)
       </td>
       <td align="center">
-	      ![adressSearch](https://github.com/Si-Woo91/adressSearch/assets/101760091/43a4c60d-80e7-4d5d-854b-19bb80003d3d)
+	      ![adressSearch](https://github.com/Si-Woo91/adressSearch/assets/101760091/43a4c60d-80e7-4d5d-854b-19bb80003d3d.jpg)
       </td>
     </tr>
   </tbody>
