@@ -76,13 +76,8 @@ public class UserService {
     }
 
 	/**
-	 * 소셜 로그인 - 박지윤
+	 * 소셜 로그인
 	 * 
-	 * @param providerTypeCode
-	 * @param custId
-	 * @param custNm
-	 * @param custEmail
-	 * @return
 	 */
 	@Transactional
 	public User whenSocialLogin(String custEmail) {
